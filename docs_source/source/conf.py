@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'RSP_GUI'
+project = 'RPC Stereo Processor (RSP)'
 copyright = '2022, Geospatial Data Analytics @ The Ohio State University'
 author = 'Geospatial Data Analytics @ The Ohio State University'
 
-release = '0.1'
-version = '0.1.0'
+release = '1'
+version = '1.0.0'
 
 # -- General configuration
 
