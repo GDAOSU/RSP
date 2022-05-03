@@ -49,13 +49,3 @@ Please follow the link `here <https://forms.gle/u4mMRDsoz9sFxFobA/>`_ to apply f
 
 *Rongjun Qin (2016). RPC Stereo Processor (RSP) –A software package for digital surface model and orthophoto generation from satellite stereo imagery. International Annals of the Photogram., Remote Sens. & Spatial Information Sci. ISPRS Congress 2016. Prague, Czech Republic, July 11-19, 2016
 Rongjun Qin (2014). Change Detection on LOD 2 Building Models with Very High Resolution Spaceborne Stereo Imagery. ISPRS Journal of Photogrammetry and Remote Sensing. 96 (2014), 179-192*
-
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-   
-   Introduction <intro>
-   Tutorial Videos <usage>
-   Result Gallery <gallery>
-   Download Manual <https://gdaosu.github.io/RSP/rsp_manual.pdf>
-   Contact Us <contact>

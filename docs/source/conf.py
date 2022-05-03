@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'RSP_GUI'
+copyright = '2022, Geospatial Data Analytics @ The Ohio State University'
+author = 'Geospatial Data Analytics @ The Ohio State University'
 
 release = '0.1'
 version = '0.1.0'
@@ -29,7 +29,11 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'furo'
+html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+extensions= [
+          'sphinxcontrib.images'
+          ]
