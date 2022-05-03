@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RPC Stereo Processor - A software package for processing RPC-based satellite stereo images &mdash; RSP_GUI 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinxcontrib-images\LightBox2\lightbox2\dist\css\lightbox.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinxcontrib-images\LightBox2\lightbox2\dist\js\lightbox-plus-jquery.min.js"></script>
+        <script src="_static/sphinxcontrib-images\LightBox2\lightbox2-customize\jquery-noconflict.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="RPC Stereo Processor - A software package for processing RPC-based satellite stereo images" href="intro.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="#" class="icon icon-home"> RSP_GUI
+          </a>
+              <div class="version">
+                0.1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Tutorial Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery.html">Result Gallery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://gdaosu.github.io/RSP/rsp_manual.pdf">Download Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Contact Us</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">RSP_GUI</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+      <li>RPC Stereo Processor - A software package for processing RPC-based satellite stereo images</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="rpc-stereo-processor-a-software-package-for-processing-rpc-based-satellite-stereo-images">
+<h1>RPC Stereo Processor - A software package for processing RPC-based satellite stereo images<a class="headerlink" href="#rpc-stereo-processor-a-software-package-for-processing-rpc-based-satellite-stereo-images" title="Permalink to this headline"></a></h1>
+<p>RPC Stereo Processor is an operational-ready software developed by me when I was still a student. It can handle most of the satellite images with RPC as their geometric model. It implements a modified version of the most advanced dense matching algorithms, which generates very dense point clouds from satellite stereo images. The whole software is highly optimized and the final products include pixel-wise dense color point clouds, DSM raster, obj triangular mesh, true-orthophoto.</p>
+<ul class="simple">
+<li><p>A software wrapper of RSP has won the <a class="reference external" href="https://community.topcoder.com/longcontest/?module=ViewProblemStatement&amp;rd=16805&amp;pm=14383/">IARPA 3D challenge</a> <a class="reference external" href="https://www.iarpa.gov/challenges/3dchallenge.html/">Top-5</a> 2016.</p></li>
+<li><p>A software wrapper of RSP has won the IEEE Data Fusion Contest 2019 Semantic 3D reconstruction Using Multi-view Satellite Imageries, two wins in the contest!</p></li>
+<li><p>A software wrapper supporting Multi-view processing using RSP is shown below:</p></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7YV1R7zhnS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><section id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>GCP/Tie Point based bias correction and adjustment of RPC file</p></li>
+<li><p>L2 image generation (ortho-ready)</p></li>
+<li><p>Dense color point cloud generation</p></li>
+<li><p>DSM generation with/without hole filling</p></li>
+<li><p>Epipolar rectification</p></li>
+<li><p>Fast cost volume filtering</p></li>
+<li><p>True ortho-photo rectification</p></li>
+<li><p>Pan-Sharpening</p></li>
+<li><p>DSM to Point cloud / Point cloud to DSM conversion</p></li>
+<li><p>Automatic ortho-photo color balancing &amp; seamless stitching</p></li>
+<li><p>Level of Details (LoD) support (OBJ &amp; 3DTiles)</p></li>
+</ul>
+</section>
+<section id="tested-datasets">
+<h2>Tested datasets<a class="headerlink" href="#tested-datasets" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>IKONOS</p></li>
+<li><p>Worldview 1/2/3</p></li>
+<li><p>Cartosat 1</p></li>
+<li><p>ZiYuan-3 (ZY-3)</p></li>
+<li><p>Geoeye 1</p></li>
+<li><p>Pleiades</p></li>
+</ul>
+</section>
+<section id="how-to-get-the-software">
+<h2>How to Get the Software<a class="headerlink" href="#how-to-get-the-software" title="Permalink to this headline"></a></h2>
+<p>Please follow the link <a class="reference external" href="https://forms.gle/u4mMRDsoz9sFxFobA/">here</a> to apply for a test license, and note this is not for the Multi-view version of the software (which is not robust enough to release for the moment). You can access the publicly shared <a class="reference external" href="https://groups.google.com/forum/#!forum/rpc-stereo-processor/">google group</a> to ask questions about the use of the software if you encounter any issues. Please note to cite the following publications if you use this software in your research:</p>
+<p><em>Rongjun Qin (2016). RPC Stereo Processor (RSP) –A software package for digital surface model and orthophoto generation from satellite stereo imagery. International Annals of the Photogram., Remote Sens. &amp; Spatial Information Sci. ISPRS Congress 2016. Prague, Czech Republic, July 11-19, 2016
+Rongjun Qin (2014). Change Detection on LOD 2 Building Models with Very High Resolution Spaceborne Stereo Imagery. ISPRS Journal of Photogrammetry and Remote Sensing. 96 (2014), 179-192</em></p>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="intro.html" class="btn btn-neutral float-right" title="RPC Stereo Processor - A software package for processing RPC-based satellite stereo images" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Geospatial Data Analytics @ The Ohio State University.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
