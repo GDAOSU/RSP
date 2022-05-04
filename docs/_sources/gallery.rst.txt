@@ -1,3 +1,5 @@
+.. _Result Gallery:
+
 Result Gallery
 ===================================
 
