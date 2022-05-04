@@ -57,5 +57,5 @@ Rongjun Qin (2014). Change Detection on LOD 2 Building Models with Very High Res
    Introduction <intro>
    Tutorial Videos <usage>
    Result Gallery <gallery>
-   Download Manual <https://gdaosu.github.io/RSP/rsp_manual.pdf>
+   Download Manual <pdf>
    Contact Us <contact>
