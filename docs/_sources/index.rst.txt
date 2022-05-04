@@ -35,11 +35,13 @@ Functions
 Tested datasets
 -----------------------------------
 - IKONOS
-- Worldview 1/2/3
+- Worldview 1/2/3/4
 - Cartosat 1
 - ZiYuan-3 (ZY-3)
 - Geoeye 1
 - Pleiades
+- Skysat
+- PlanetScope
 
 
 How to Get the Software
