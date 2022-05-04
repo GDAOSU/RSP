@@ -1,4 +1,7 @@
-﻿Contact Us
+﻿.. _Contact Us:
+
+
+Contact Us
 ===================================
 **Rongjun Qin**
 
